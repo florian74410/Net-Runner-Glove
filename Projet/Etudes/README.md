@@ -15,3 +15,5 @@ Pour chaque nouvelle étude : source primaire, URL/DOI ou brevet, date, descript
 - [E004 — Pilotes haptiques et cartes disponibles](E004-Pilotes-haptiques-et-boards.md) — comparatif DRV2605L/2604L/2625/2624/DA7280, dimensions, courants et prix de boards.
 
 - [E005 — Cartes DRV2605L et futur PCB](E005-Cartes-DRV2605L-et-PCB.md) — tailles, schémas ouverts, multiplexage TCA9548A et architecture 2→5 canaux.
+
+- [E006 — Risque de démarrage DRV2605L et PCB multicanal](E006-Risque-DRV2605L-et-PCB-multicanal.md) — témoignage TI E2E, protocole de test et fabrication JLCPCB.
