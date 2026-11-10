@@ -73,3 +73,9 @@ Relire l'état, vérifier les changements Git, puis étudier les petits pilotes 
 - OTP exige 4–4,4 V, incompatible avec rail exclusivement 3,3 V ; sauvegarde des calibrations dans mémoire ESP32 envisagée.
 - Option PCB 5 empreintes DRV2605L / TCA9548A, seulement 2 pilotes montés initialement ; MCU externe ; comparer aux cartes Adafruit.
 - Étude : `Projet/Etudes/E006-Risque-DRV2605L-et-PCB-multicanal.md`.
+
+## 2026-11-10 — E007 capteurs Homme → Machine
+- Recherche de solutions pour détecter quel doigt touche le pouce et l'intensité du pincement.
+- Candidats : contacts textiles simples, FSR400 Ø5,1 mm, FlexiForce A201 Ø9,53 mm, film Velostat artisanal ; capteurs capacitifs à approfondir.
+- Proposition progressive : quatre contacts binaires puis deux FSR de test ; lecture analogique ESP32-C3 ou ADC externe et événements indépendants des composants dans NRP-Language.
+- Étude `Projet/Etudes/E007-Capteurs-pincement-pouce-doigts.md` ; aucun modèle acheté/validé.
