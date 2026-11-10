@@ -66,3 +66,10 @@ Relire l'état, vérifier les changements Git, puis étudier les petits pilotes 
 - Création du dossier `Projet/Documentations/Datasheets/DRV2605LDGSEVM-M/` et de son registre (SLOU396, SLOU502B, déclaration UE RoHS). Documents TI fournis et examinés ; **PDF non redistribués dans Git public** en raison des conditions de reproduction.
 - Copie **intégrale** des huit fichiers du dépôt matériel `adafruit/Adafruit-DRV2605-PCB` (branche master) dans `Projet/Documentations/Datasheets/Adafruit-DRV2605-PCB/`, licence et attribution conservées.
 - Le lien E2E `https://e2e.ti.com/f/1/t/1605518` est inaccessible à l'analyse ; son contenu reste à examiner.
+
+## 2026-11-10 — E006 : signalement de démarrage DRV2605L / PCB JLCPCB
+- Texte de la discussion TI E2E fourni par l'utilisateur : deux cas de démarrage anormal (sensibilité thermique et écritures I²C après coupure courte), non confirmés comme erratum de série.
+- Références TI de séquence d'initialisation, EN, STANDBY, DEV_RESET et attente minimale 250 µs ; risque de rétro-alimentation à contrôler.
+- OTP exige 4–4,4 V, incompatible avec rail exclusivement 3,3 V ; sauvegarde des calibrations dans mémoire ESP32 envisagée.
+- Option PCB 5 empreintes DRV2605L / TCA9548A, seulement 2 pilotes montés initialement ; MCU externe ; comparer aux cartes Adafruit.
+- Étude : `Projet/Etudes/E006-Risque-DRV2605L-et-PCB-multicanal.md`.
