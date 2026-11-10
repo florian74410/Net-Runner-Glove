@@ -28,3 +28,7 @@ Ce registre consigne les fichiers transmis par l'utilisateur, leurs identités e
 
 ## Archivage
 Préserver l'original binaire ; enregistrer l'empreinte SHA-256 ; vérifier l'autorisation de redistribution avant publication sur ce dépôt public. Ne pas renommer un PDF comme s'il concernait une autre variante moteur.
+
+## DRV2605L — dossiers de référence
+- [TI DRV2605LDGSEVM-M](DRV2605LDGSEVM-M/README.md) — trois documents TI examinés dans la conversation, liens officiels, schéma p. 4 et avertissement de redistribution ; PDF non copiés dans le dépôt.
+- [Adafruit-DRV2605-PCB](Adafruit-DRV2605-PCB/) — copie intégrale des 8 fichiers du dépôt matériel Adafruit, deux versions Eagle, images et licence CC BY-SA 3.0.
