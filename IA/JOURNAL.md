@@ -55,3 +55,9 @@ Relire l'état, vérifier les changements Git, puis étudier les petits pilotes 
 - Étude des drivers TI DRV2605L/2604L/2625/2624 et Renesas DA7280 ; comparatif de cartes Adafruit, TI, SparkFun, Pimoroni et Seeed.
 - Contrôle des consommations selon états veille/actif, mini-board TI DRV2625EVM-MINI 10×10 mm.
 - Étude : `Projet/Etudes/E004-Pilotes-haptiques-et-boards.md` ; sélection finale et achats non décidés.
+
+## 2026-11-10 — Étude E005 cartes compactes DRV2605L / PCB
+- Orientation : DRV2605L par ERM + multiplexeur TCA9548A + dictionnaires haptique en mémoire MCU.
+- Comparaison mini-board TI 16,33 × 8,97 mm, Adafruit, SparkFun, Boardoza et Pimoroni PIM452 (LRA intégré, non idéal pour ERM interchangeable).
+- Schémas constructeur et fichiers Eagle open hardware référencés dans `Projet/Etudes/E005-Cartes-DRV2605L-et-PCB.md`.
+- PCB maison envisagé ; pas de schéma final ni achat décidé.
