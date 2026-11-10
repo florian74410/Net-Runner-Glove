@@ -13,3 +13,5 @@ Pour chaque nouvelle étude : source primaire, URL/DOI ou brevet, date, descript
 - [E003 — Alimentation commune 3,3 V](E003-Alimentation-3V3.md) — batterie LiPo, buck-boost, tensions et dimensionnement.
 
 - [E004 — Pilotes haptiques et cartes disponibles](E004-Pilotes-haptiques-et-boards.md) — comparatif DRV2605L/2604L/2625/2624/DA7280, dimensions, courants et prix de boards.
+
+- [E005 — Cartes DRV2605L et futur PCB](E005-Cartes-DRV2605L-et-PCB.md) — tailles, schémas ouverts, multiplexage TCA9548A et architecture 2→5 canaux.
