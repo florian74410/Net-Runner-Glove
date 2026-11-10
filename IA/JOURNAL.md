@@ -50,3 +50,8 @@ Relire l'état, vérifier les changements Git, puis étudier les petits pilotes 
 - **Batterie amovible et recharge hors du gant** retenues pour le prototype V0.1 ; pas de port pendant recharge.
 - Tests préliminaires sur alimentation de laboratoire limitée en courant, puis vérifications avant port.
 - Documents actualisés : `Projet/Architecture-V0.1.md`, `Projet/Etudes/E003-Alimentation-3V3.md`, `Projet/README.md` et `IA/DECISIONS.md`.
+
+## 2026-11-10 — Étude E004 pilotes haptiques
+- Étude des drivers TI DRV2605L/2604L/2625/2624 et Renesas DA7280 ; comparatif de cartes Adafruit, TI, SparkFun, Pimoroni et Seeed.
+- Contrôle des consommations selon états veille/actif, mini-board TI DRV2625EVM-MINI 10×10 mm.
+- Étude : `Projet/Etudes/E004-Pilotes-haptiques-et-boards.md` ; sélection finale et achats non décidés.
