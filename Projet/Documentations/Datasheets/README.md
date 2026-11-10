@@ -1,15 +1,15 @@
 # Datasheets — NRP
 
-**Mise à jour : 2026-11-10 — 2 PDF reçus et vérifiés localement, en attente de transfert binaire dans GitHub.**
+**Mise à jour : 2026-11-10 — 2 PDF reçus, vérifiés et présents dans GitHub.**
 
-Ce registre consigne les fichiers transmis par l'utilisateur, leurs identités et empreintes ; **les deux PDF ne sont pas encore téléversés dans le dépôt**. Un lien vers un PDF hébergé chez le fabricant n'est pas une copie archivée dans Git.
+Ce registre consigne les fichiers transmis par l'utilisateur, leurs identités et empreintes ; **les deux PDF sont désormais présents dans le dépôt**. Les fichiers sont disponibles dans ce dossier sous les noms effectivement téléversés.
 
 ## PDF fournis
 
 | Fichier à archiver ici | Identité vérifiée | Pages | Taille | SHA-256 | Statut |
 |---|---|---:|---:|---|---|
-| `PrecisionMicrodrives-310-118.001-R002-V009.pdf` | PMD 310-118.001, R002-V009 ©2021 | 6 | 1 449 686 octets | `82ec623f5c8a006a6229c7c585f4fdb3431330fda976335c599ee827d8f7857e` | Vérifié localement ; binaire à pousser |
-| `NFP-FLAT-C1030-20211116.pdf` | NFP-FLAT-C1030, Need-For-Power | 5 | 143 926 octets | `fffd43b26da4316f9b8593dfb7f8e145928d02d86ca8167f17ef1e28ca675341` | Vérifié localement ; binaire à pousser |
+| [datasheet_ERM-310-118.pdf](datasheet_ERM-310-118.pdf) | PMD 310-118.001, R002-V009 ©2021 | 6 | 1 449 686 octets | `82ec623f5c8a006a6229c7c585f4fdb3431330fda976335c599ee827d8f7857e` | Vérifié localement ; **présent sur GitHub (main)** |
+| [Datasheet_NFP-FLAT-C1030-20211116.pdf](Datasheet_NFP-FLAT-C1030-20211116.pdf) | NFP-FLAT-C1030, Need-For-Power | 5 | 143 926 octets | `fffd43b26da4316f9b8593dfb7f8e145928d02d86ca8167f17ef1e28ca675341` | Vérifié localement ; **présent sur GitHub (main)** |
 
 **Attention aux variantes :** `NFP-FLAT-C1030` (titre du document reçu) n'est pas nécessairement interchangeable avec toute référence commerciale `NFP-C1030` ; vérifier au vendeur.
 
