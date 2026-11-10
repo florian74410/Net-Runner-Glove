@@ -38,3 +38,8 @@ Relire l'état, vérifier les changements Git, puis étudier les petits pilotes 
 ## 2026-11-10 — PDF effectivement déposés dans GitHub
 - Vérification du dossier `Projet/Documentations/Datasheets/` sur `main` : `datasheet_ERM-310-118.pdf` (1 449 686 octets) et `Datasheet_NFP-FLAT-C1030-20211116.pdf` (143 926 octets).
 - Registre `Datasheets/README.md` mis à jour vers les liens réels ; la fiche exacte du C0816 reste à obtenir.
+
+## 2026-11-10 — Hypothèse bus unique 3,3 V
+- Proposition d'alimenter MCU, pilotes, capteurs et multiplexeur par un **rail régulé 3,3 V** via buck-boost depuis LiPo 1S ; sortie USB de charge 5 V distincte.
+- Vérifier tension d'overdrive moteur, limites de courant, condensateurs de découplage et carte ESP32 précise.
+- Étude archivée : `Projet/Etudes/E003-Alimentation-3V3.md` ; pas de montage validé.
