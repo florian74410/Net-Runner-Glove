@@ -17,3 +17,5 @@ Pour chaque nouvelle étude : source primaire, URL/DOI ou brevet, date, descript
 - [E005 — Cartes DRV2605L et futur PCB](E005-Cartes-DRV2605L-et-PCB.md) — tailles, schémas ouverts, multiplexage TCA9548A et architecture 2→5 canaux.
 
 - [E006 — Risque de démarrage DRV2605L et PCB multicanal](E006-Risque-DRV2605L-et-PCB-multicanal.md) — témoignage TI E2E, protocole de test et fabrication JLCPCB.
+
+- [E007 — Capteurs de pincement pouce-doigts](E007-Capteurs-pincement-pouce-doigts.md) — FSR400, FlexiForce, Velostat, contacts conducteurs et lecture ESP32-C3.
