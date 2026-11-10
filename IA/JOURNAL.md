@@ -8,3 +8,9 @@
 
 ### Prochaine reprise
 Relire l'état, vérifier les changements Git, puis étudier les petits pilotes haptiques, la qualité des moteurs/capteurs et la mesure énergétique avant d'arrêter une nomenclature de commande.
+
+## 2026-11-10 — Classement des dossiers de projet
+- Ajout de `Projet/BOM/`, `Projet/Etudes/`, `Projet/Developpement/`, `Projet/Documentations/`.
+- Déplacement de `Projet/BOM-V0.1.md` vers `Projet/BOM/BOM-V0.1.md`, contenu conservé.
+- Création d'un inventaire d'antériorités avec liens et statut exploratoire, pour enrichissement au fil des recherches.
+- Conservation des autres documents à la racine de `Projet/`.
