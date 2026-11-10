@@ -5,7 +5,8 @@
             |
            BLE
             |
-[Bracelet : ESP32 + batterie protégée + charge + régulation]
+[Bracelet : ESP32 + rail régulé 3,3 V + protection batterie]
+[Bloc batterie LiPo 1S amovible : recharge séparée hors gant]
             |
      [Pilotes moteurs + lecture capteurs]
             |
@@ -22,6 +23,14 @@
 
 ## Conception physique
 Électronique concentrée dans le bracelet ; doigt = seulement actionneur/capteur, support textile ou embout amovible, câble longeant la main comme un tendon. Modules remplaçables indépendamment. Configuration main gauche / main droite prévue au niveau logiciel.
+
+## Alimentation et sécurité — exigences V0.1
+- Rail d'alimentation commun **3,3 V régulé** pour MCU, pilotes, logique et capteurs, depuis batterie LiPo 1S protégée et convertisseur buck-boost adapté aux pointes.
+- Le bloc batterie est **amovible**, mécaniquement isolé et maintenu à l'écart des articulations ; **recharge hors du gant** via chargeur adapté avec surveillance thermique.
+- Protection **matérielle** contre surcharge, décharge profonde, surintensité et court-circuit ; aucune sécurité essentielle ne dépend du seul logiciel.
+- Télémétrie logicielle (tension/température/alertes/arrêt) comme protection complémentaire.
+- Prototype testé initialement sur alimentation de laboratoire limitée en courant ; vérification des températures et des modes de défaillance avant port.
+- Les moteurs restent commandés selon leurs limites de tension, malgré le bus 3,3 V. [Étude E003 — alimentation et sécurité](Etudes/E003-Alimentation-3V3.md).
 
 ## Arbitrages en suspens
 - ERM + MOSFET/PWM vs LRA + pilotes dédiés DRV2605L.
