@@ -22,7 +22,11 @@
 - Aucun achat, choix technique définitif ou affirmation de nouveauté sans validation.
 
 ## Fichiers
-- [BOM et puissance](BOM-V0.1.md)
+- [BOM et puissance](BOM/BOM-V0.1.md)
+- [Dossier BOM](BOM/README.md)
+- [Inventaire des études et antériorités](Etudes/Antecedents-V0.1.md)
+- [Développement](Developpement/README.md)
+- [Documentations](Documentations/README.md)
 - [Architecture de départ](Architecture-V0.1.md)
 - [Hypothèses et expériences](Recherche-et-tests.md)
 - [Journal de décisions et travail IA](../IA/README.md)
