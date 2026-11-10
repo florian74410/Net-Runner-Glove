@@ -61,3 +61,8 @@ Relire l'état, vérifier les changements Git, puis étudier les petits pilotes 
 - Comparaison mini-board TI 16,33 × 8,97 mm, Adafruit, SparkFun, Boardoza et Pimoroni PIM452 (LRA intégré, non idéal pour ERM interchangeable).
 - Schémas constructeur et fichiers Eagle open hardware référencés dans `Projet/Etudes/E005-Cartes-DRV2605L-et-PCB.md`.
 - PCB maison envisagé ; pas de schéma final ni achat décidé.
+
+## 2026-11-10 — Archivage de référence DRV2605L
+- Création du dossier `Projet/Documentations/Datasheets/DRV2605LDGSEVM-M/` et de son registre (SLOU396, SLOU502B, déclaration UE RoHS). Documents TI fournis et examinés ; **PDF non redistribués dans Git public** en raison des conditions de reproduction.
+- Copie **intégrale** des huit fichiers du dépôt matériel `adafruit/Adafruit-DRV2605-PCB` (branche master) dans `Projet/Documentations/Datasheets/Adafruit-DRV2605-PCB/`, licence et attribution conservées.
+- Le lien E2E `https://e2e.ti.com/f/1/t/1605518` est inaccessible à l'analyse ; son contenu reste à examiner.
