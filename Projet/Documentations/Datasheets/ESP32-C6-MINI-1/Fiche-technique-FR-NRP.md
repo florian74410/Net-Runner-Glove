@@ -94,7 +94,7 @@ D'après le tableau 3-1 (PDF p. 10–11) :
 La **figure 9-1, page PDF 40**, fournit un exemple d'application et non une liste aveugle de composants requis :
 
 - **3,3 V : condensateurs 22 µF et 100 nF** près du module dans l'exemple (C1/C2).
-- **EN :** TI? Non, **Espressif** recommande généralement un **RC de 10 kΩ + 1 µF** pour sécuriser la séquence de démarrage ; valeurs à adapter si la montée du 3,3 V diffère.
+- **EN :** **Espressif** recommande généralement un **RC de 10 kΩ + 1 µF** pour sécuriser la séquence de démarrage ; valeurs à adapter si la montée du 3,3 V diffère.
 - Connecter **GPIO12 (USB D−)** et **GPIO13 (USB D+)** à l'USB selon les recommandations de routage/ESD et la connectique choisie.
 - Prévoir BOOT/RESET accessibles et une voie de récupération UART0 en plus du USB/JTAG.
 - **Ne pas redessiner** la partie quartz RF et réseau d'adaptation de la *figure 8-1 page 38* : ils sont **déjà à l'intérieur du module ESP32-C6-MINI-1**.
@@ -112,7 +112,7 @@ La **figure 9-1, page PDF 40**, fournit un exemple d'application et non une list
 ## 6. Implications proposées pour HC-01 (décisions projet, pas caractéristiques constructeur)
 
 1. **Variante candidate ESP32-C6-MINI-1-H8 :** antenne intégrée et flash 8 Mo ; référence définitive et stock à confirmer.
-2. Rail **3,3 V régulé** conçu pour les **pics ≥0,5 A du MCU**, plus cinq DRV2605L et appels de courant ERM. Protection LiPo et recharge hors gant retenues dans le projet.
+2. Rail **3,3 V régulé** conçu pour les **capacité d'au moins 0,5 A recommandée pour le module**, plus cinq DRV2605L et appels de courant ERM. Protection LiPo et recharge hors gant retenues dans le projet.
 3. Affectation GPIO **provisoire à concevoir** ; réserver 5 ADC pour les FSR futurs, 2 fils I²C pour le TCA9548A, USB D± pour la récupération, états déterministes des strap pins, éventuellement commandes individuelles EN/load switches. Aucune affectation définitive avant validation.
 4. Conserver points de test 3V3, GND, EN, UART RX/TX, USB si accessible, et I²C, dans des zones réparables.
 5. PCB **cinq canaux haptique prévus, un seul DRV2605L peuplé initialement** ; bien séparer les symboles configurés en DNP/« ne pas monter » et les chemins alimentés.
