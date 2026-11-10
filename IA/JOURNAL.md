@@ -79,3 +79,10 @@ Relire l'état, vérifier les changements Git, puis étudier les petits pilotes 
 - Candidats : contacts textiles simples, FSR400 Ø5,1 mm, FlexiForce A201 Ø9,53 mm, film Velostat artisanal ; capteurs capacitifs à approfondir.
 - Proposition progressive : quatre contacts binaires puis deux FSR de test ; lecture analogique ESP32-C3 ou ADC externe et événements indépendants des composants dans NRP-Language.
 - Étude `Projet/Etudes/E007-Capteurs-pincement-pouce-doigts.md` ; aucun modèle acheté/validé.
+
+## 2026-11-10 — Datasheet ESP32-C6-MINI-1 v1.5
+- Lecture de la datasheet Espressif v1.5 (16/06/2026, 53 pages PDF) fournie par l'utilisateur.
+- Fiche française de référence NRP créée dans `Projet/Documentations/Datasheets/ESP32-C6-MINI-1/Fiche-technique-FR-NRP.md` et dossier indexé.
+- Valeurs importantes : module 3,0–3,6 V ; alimentation capable d'au moins 0,5 A ; 7 voies ADC 12 bits IO0–IO6 ; USB natif IO12/IO13 ; BLE TX crête 94 à 309 mA selon puissance ; deep sleep 7 µA ; GPIO8/GPIO9 strapping ; EN non flottant ; RC EN typique 10 kΩ + 1 µF.
+- Variante candidate H8 (8 Mo) et plan d'affectation GPIO à valider avant schéma ; batterie et RF à vérifier selon guidelines.
+- **PDF non encore copié en Git** faute de transfert binaire direct disponible : lien officiel dans le README, ne pas déclarer l'archivage complet.
