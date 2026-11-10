@@ -32,3 +32,5 @@ Préserver l'original binaire ; enregistrer l'empreinte SHA-256 ; vérifier l'au
 ## DRV2605L — dossiers de référence
 - [TI DRV2605LDGSEVM-M](DRV2605LDGSEVM-M/README.md) — trois documents TI examinés dans la conversation, liens officiels, schéma p. 4 et avertissement de redistribution ; PDF non copiés dans le dépôt.
 - [Adafruit-DRV2605-PCB](Adafruit-DRV2605-PCB/) — copie intégrale des 8 fichiers du dépôt matériel Adafruit, deux versions Eagle, images et licence CC BY-SA 3.0.
+
+- [ESP32-C6-MINI-1](ESP32-C6-MINI-1/README.md) — fiche française de la datasheet v1.5 (53 pages), caractéristiques BLE, alimentation, GPIO/ADC, implantation et schéma ; PDF constructeur transmis dans la conversation, **non encore archivé en binaire dans Git**.
