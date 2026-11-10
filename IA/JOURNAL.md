@@ -34,3 +34,7 @@ Relire l'état, vérifier les changements Git, puis étudier les petits pilotes 
 - Deux PDF utilisateur vérifiés localement : PMD 310-118.001 (6 p., R002-V009) et NFP-FLAT-C1030 (5 p.). Empreintes SHA-256 et caractéristiques extraites dans `Projet/Documentations/Datasheets/README.md`.
 - Le dessin C0815 transmis montre 1,6 ±0,1 mm d'épaisseur ; ne pas assimiler automatiquement C0815 à C0816.
 - Transfert PDF binaire dans le dépôt encore à effectuer ; liens et inventaire enregistrés sans prétendre que les PDF sont présents.
+
+## 2026-11-10 — PDF effectivement déposés dans GitHub
+- Vérification du dossier `Projet/Documentations/Datasheets/` sur `main` : `datasheet_ERM-310-118.pdf` (1 449 686 octets) et `Datasheet_NFP-FLAT-C1030-20211116.pdf` (143 926 octets).
+- Registre `Datasheets/README.md` mis à jour vers les liens réels ; la fiche exacte du C0816 reste à obtenir.
