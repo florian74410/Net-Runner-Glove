@@ -43,3 +43,10 @@ Relire l'état, vérifier les changements Git, puis étudier les petits pilotes 
 - Proposition d'alimenter MCU, pilotes, capteurs et multiplexeur par un **rail régulé 3,3 V** via buck-boost depuis LiPo 1S ; sortie USB de charge 5 V distincte.
 - Vérifier tension d'overdrive moteur, limites de courant, condensateurs de découplage et carte ESP32 précise.
 - Étude archivée : `Projet/Etudes/E003-Alimentation-3V3.md` ; pas de montage validé.
+
+## 2026-11-10 — Décision sécurité LiPo et alimentation commune
+- Validation du principe **rail régulé 3,3 V commun** ; une LiPo 1S ne fournit pas directement une tension stable de 3,3 V.
+- Quatre protections adoptées : cellule protégée matériellement, contrôleur de charge adapté, protection mécanique du boîtier, surveillance logicielle complémentaire.
+- **Batterie amovible et recharge hors du gant** retenues pour le prototype V0.1 ; pas de port pendant recharge.
+- Tests préliminaires sur alimentation de laboratoire limitée en courant, puis vérifications avant port.
+- Documents actualisés : `Projet/Architecture-V0.1.md`, `Projet/Etudes/E003-Alimentation-3V3.md`, `Projet/README.md` et `IA/DECISIONS.md`.
