@@ -9,3 +9,5 @@ Pour chaque nouvelle étude : source primaire, URL/DOI ou brevet, date, descript
 - [E001 — Actionneurs haptiques et gants commerciaux](E001-Actionneurs-haptiques.md) — comparaison ERM/LRA/VCM et références fabricant.
 
 - [E002 — Sélection de moteurs ERM miniatures](E002-Selection-ERM-miniatures.md) — Ø8–10 mm, épaisseur, accélération, freinage et protocoles de test.
+
+- [E003 — Alimentation commune 3,3 V](E003-Alimentation-3V3.md) — batterie LiPo, buck-boost, tensions et dimensionnement.
