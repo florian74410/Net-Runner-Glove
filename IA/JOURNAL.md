@@ -19,3 +19,8 @@ Relire l'état, vérifier les changements Git, puis étudier les petits pilotes 
 - Analyse documentaire des gants bHaptics, SenseGlove, MANUS, HaptX et revue systématique.
 - Étude de comparaison ERM/LRA (Georgia Tech) et examen de références LRA miniatures.
 - Dossier : `Projet/Etudes/E001-Actionneurs-haptiques.md` ; aucune référence encore commandée/validée physiquement.
+
+## 2026-11-10 — Étude E002 ERM miniatures
+- Orientation provisoire : ERM coin Ø8–10 mm pour le gant ; présélection de six références fabricant.
+- Distinction vitesse d'arrêt libre/freinage actif, MOSFET vs pilote DRV2605L.
+- Étude archivée : `Projet/Etudes/E002-Selection-ERM-miniatures.md` ; aucun achat décidé.
