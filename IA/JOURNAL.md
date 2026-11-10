@@ -24,3 +24,8 @@ Relire l'état, vérifier les changements Git, puis étudier les petits pilotes 
 - Orientation provisoire : ERM coin Ø8–10 mm pour le gant ; présélection de six références fabricant.
 - Distinction vitesse d'arrêt libre/freinage actif, MOSFET vs pilote DRV2605L.
 - Étude archivée : `Projet/Etudes/E002-Selection-ERM-miniatures.md` ; aucun achat décidé.
+
+## 2026-11-10 — Datasheets et banc deux canaux
+- Ajout `Projet/Documentations/Datasheets/README.md` avec liens et statut de téléchargement des 3 références ERM.
+- Alerte document : la fiche PDF associée au NFP-FLAT-C0816 est en réalité étiquetée **NFP-C0815**, à ne pas utiliser comme fiche exacte.
+- Option banc de test : 3 paires de moteurs (2 pièces de chaque modèle) interchangeables sur **2 canaux DRV2605L** ; 4 états binaires dont 3 actifs ; aucun achat validé.
