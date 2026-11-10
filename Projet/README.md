@@ -18,7 +18,8 @@
 - Budget souhaité du premier prototype : **≤ 100 €** (objectif, non coût garanti).
 - Priorité à la qualité des sensations, à la sécurité électrique, au confort et à la maintenabilité.
 - Ne pas réduire arbitrairement la qualité des capteurs/actionneurs ; optimiser plutôt carte MCU, intégration et architecture.
-- Batterie LiPo 1S protégée, charge adaptée, validation des pics de courant et de l'autonomie réelle.
+- **Rail régulé commun 3,3 V** pour le prototype (batterie LiPo 1S de tension variable, régulée via buck-boost).
+- **Sécurité non négociable** : protection matérielle batterie, chargeur adapté, isolation physique, surveillance complémentaire et batterie amovible rechargée hors du gant ; essais de sécurité avant port.
 - Aucun achat, choix technique définitif ou affirmation de nouveauté sans validation.
 
 ## Fichiers
@@ -28,6 +29,7 @@
 - [Développement](Developpement/README.md)
 - [Documentations](Documentations/README.md)
 - [Architecture de départ](Architecture-V0.1.md)
+- [Étude E003 — alimentation 3,3 V et sécurité batterie](Etudes/E003-Alimentation-3V3.md)
 - [Hypothèses et expériences](Recherche-et-tests.md)
 - [Journal de décisions et travail IA](../IA/README.md)
 
