@@ -14,3 +14,8 @@ Relire l'état, vérifier les changements Git, puis étudier les petits pilotes 
 - Déplacement de `Projet/BOM-V0.1.md` vers `Projet/BOM/BOM-V0.1.md`, contenu conservé.
 - Création d'un inventaire d'antériorités avec liens et statut exploratoire, pour enrichissement au fil des recherches.
 - Conservation des autres documents à la racine de `Projet/`.
+
+## 2026-11-10 — Étude E001 sur les actionneurs haptiques
+- Analyse documentaire des gants bHaptics, SenseGlove, MANUS, HaptX et revue systématique.
+- Étude de comparaison ERM/LRA (Georgia Tech) et examen de références LRA miniatures.
+- Dossier : `Projet/Etudes/E001-Actionneurs-haptiques.md` ; aucune référence encore commandée/validée physiquement.
