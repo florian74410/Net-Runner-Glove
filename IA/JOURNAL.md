@@ -29,3 +29,8 @@ Relire l'état, vérifier les changements Git, puis étudier les petits pilotes 
 - Ajout `Projet/Documentations/Datasheets/README.md` avec liens et statut de téléchargement des 3 références ERM.
 - Alerte document : la fiche PDF associée au NFP-FLAT-C0816 est en réalité étiquetée **NFP-C0815**, à ne pas utiliser comme fiche exacte.
 - Option banc de test : 3 paires de moteurs (2 pièces de chaque modèle) interchangeables sur **2 canaux DRV2605L** ; 4 états binaires dont 3 actifs ; aucun achat validé.
+
+## 2026-11-10 — Contrôle des datasheets reçues
+- Deux PDF utilisateur vérifiés localement : PMD 310-118.001 (6 p., R002-V009) et NFP-FLAT-C1030 (5 p.). Empreintes SHA-256 et caractéristiques extraites dans `Projet/Documentations/Datasheets/README.md`.
+- Le dessin C0815 transmis montre 1,6 ±0,1 mm d'épaisseur ; ne pas assimiler automatiquement C0815 à C0816.
+- Transfert PDF binaire dans le dépôt encore à effectuer ; liens et inventaire enregistrés sans prétendre que les PDF sont présents.
